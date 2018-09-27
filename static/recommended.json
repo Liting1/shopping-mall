@@ -1,0 +1,26 @@
+[{
+	"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017Reference-00?context=bWFzdGVyfGltYWdlc3w0NDA5N3xpbWFnZS9wbmd8aW1hZ2VzL2g3OS9oYjgvOTkwNDY1NzM2NzA3MC5wbmd8YzViZTE5ZjQwMWI2OTFjMTg3OWVhYzA4NmZkOTQ0NTY3NWUyZTBmM2RjNmYyMzRlMjQ1OWZjNWRkZjNhYjlkMg",
+	"name": "全新 Surface Go",
+	"desc": "赋予便携新能量",
+	"price": "￥2,988"
+}, {
+	"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017Reference-01?context=bWFzdGVyfGltYWdlc3wxMTcxNDZ8aW1hZ2UvcG5nfGltYWdlcy9oYzgvaGVjLzk5MDQ2NTczOTk4MzgucG5nfDU2M2Y3ZTRkZmMzY2I4OGZiNWQwNTkyMWMzYmM0MWVhNzNmMGI3YmFhMjFmYTBmYTA3YWQ3MmY0NGQwZmI5MjU",
+	"name": "Surface Book 2",
+	"desc": "性能巨匠，超越你对笔记本的想象",
+	"price": "￥9,488"
+}, {
+	"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017Reference-02?context=bWFzdGVyfGltYWdlc3wxMDI1NTJ8aW1hZ2UvcG5nfGltYWdlcy9oYzkvaDgzLzk5MDQ2NTc0MzI2MDYucG5nfGJhMzA0Y2M0Y2ZhYWQwYWUwNDY4OTNiNWE4ODJkMTkwNmM3NmIxYWQ0NTI1YTMzZjRhZTVmNjkwMjE1NjcyNzM",
+	"name": "Surface Pro",
+	"desc": "全新 i5/128GB 含特制版键盘盖机型",
+	"price": "￥7,288"
+}, {
+	"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017Reference-03?context=bWFzdGVyfGltYWdlc3w3Njk1MHxpbWFnZS9wbmd8aW1hZ2VzL2g1ZS9oM2YvOTkwNDY1NzQ2NTM3NC5wbmd8MDc0ZDU0ZGY3ZmY4Y2MxODc2OTVmOTEzM2MwZTBkZTFmOTBhNjU0ZWRmYzg3MjMxNTkzYmU2YzdlMjk0M2NmOQ",
+	"name": "Surface Studio",
+	"desc": "为灵感而生，让创作自如",
+	"price": "￥25,988"
+}, {
+	"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017Reference-04?context=bWFzdGVyfGltYWdlc3w3MzgwM3xpbWFnZS9wbmd8aW1hZ2VzL2hjZS9oYjUvOTkwNDY1NzQ5ODE0Mi5wbmd8MDMyMWI1NmNmYTE0ODM5OWJjZWY1ZTMyMTMyNjgzMzc5NDdhNzhiY2I2YTJmYmRiOTRjMTRiMDczZTBjZDc0Nw",
+	"name": "Microsoft HoloLens",
+	"desc": "混合现实：世界就是你的画布",
+	"price": "￥23,488"
+}]

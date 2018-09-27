@@ -1,0 +1,98 @@
+{
+	"surface": {
+		"title": "Surface",
+		"cp": [{
+			"title": "卓越生产力，非凡创造力<br>Surface 全明星系列震撼登陆",
+			"desc": "查看更多",
+			"price": "",
+			"bgimg":"https://imgazure.microsoftstore.com.cn/medias/HomePage2017SurfaceGuide-Media?context=bWFzdGVyfGltYWdlc3wxNjc3MjJ8aW1hZ2UvcG5nfGltYWdlcy9oNDMvaDVhLzk5MDQ2NTcwMDY2MjIucG5nfDI3NTU1YmE4MjZmMWVlNzI1ODI1MzVjMDkwNDYyYzU1NzRlNDQ4MWI0MmU4MTI5MWU5NWYxZWQwMTE1NjJjNDI"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductSurface-01?context=bWFzdGVyfGltYWdlc3wxMTcxMDF8aW1hZ2UvcG5nfGltYWdlcy9oZjgvaDQ5Lzk5MDQ2NTc3Mjc1MTgucG5nfDEyNmU0ZWVkYjRmMDE3NmIwNGUzZGI1ZWNlNmU5ODRkODkwMzc2ZDIzM2U3NzdkZGU1YzYyOWYxMzZhNzRlOGY",
+			"title": "全新 Surface Go",
+			"desc": "更小、更轻，适用于日常工作及娱乐",
+			"price": "¥ 2,988"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductSurface-02?context=bWFzdGVyfGltYWdlc3wxOTIzNTR8aW1hZ2UvcG5nfGltYWdlcy9oZGYvaDdiLzk5MDQ2NTc3NjAyODYucG5nfDgxNDM1OWI4YTliYzlmNWE4YTY3ZmVkY2EyYTUxZmFmMzdmMjU4NTQ3YTdmYmZkNjE4NzRhMzQwYzhhMTAzYTc",
+			"title": "Surface Laptop",
+			"desc": "外观时尚，性能出众",
+			"price": "¥ 5,588"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductSurface-03?context=bWFzdGVyfGltYWdlc3wxMDQyNDR8aW1hZ2UvcG5nfGltYWdlcy9oZjQvaDhlLzk5MDQ2NTc3OTMwNTQucG5nfDk3MTg5OWIxOGQzZGJiMjE2NGQ2OTI0MzI2NmRmYjk4MTYyNGZhZTIxMWE0YTRhMmZjN2EyZmRjOTZmZGVkYzI",
+			"title": "Surface Studio",
+			"desc": "你的创意工作室",
+			"price": "¥ 25,988"
+		}]
+	},
+	"office": {
+		"title": "Office",
+		"cp": [{
+			"title": "专注高效办公20年<br>选择Office，<br>成就更高生产力",
+			"desc": "查看更多",
+			"price": "",
+			"bgimg":"https://imgazure.microsoftstore.com.cn/medias/HomePage2017OfficeGuide-Media?context=bWFzdGVyfGltYWdlc3wxMzQ1NTh8aW1hZ2UvcG5nfGltYWdlcy9oZTQvaDY4Lzk5MDQ2NTcwMzkzOTAucG5nfDQ4ZWU0MzY0MzFhZjU2YjY5MTcyNGNjZDU2YTUwY2E2MWEwMjU1N2IwOTJkZmU2NjRiNDdhMmZhMzk5Nzc0OGM"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductOffice-02?context=bWFzdGVyfGltYWdlc3wyNzYwMHxpbWFnZS9wbmd8aW1hZ2VzL2gyMy9oMmYvOTkwNDY1NzYyOTIxNC5wbmd8YmFjYzcyMWE5ZDgwOWM4NzRjMDY2MmU5N2UzNWE5ZWQxZTVkZmU3YThjNDRlODVkYzE3OTFiYWVhYjMxMGZjMg",
+			"title": "Office 365 个人版",
+			"desc": "可在多个设备上安装，享持续更新",
+			"price": "¥ 398"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductOffice-02?context=bWFzdGVyfGltYWdlc3wyOTU0OHxpbWFnZS9wbmd8aW1hZ2VzL2g4OS9oYjAvOTkwNDY1NzY2MTk4Mi5wbmd8Mzc5MTAxZmYxZWJmZjE3MzBiNDVlYjdjMDQwMzFjYWE5M2M0NjNmYzMyNmY1ZTljNTZlN2I2M2I2Y2E1NjJjNg",
+			"title": "Office 365 家庭版",
+			"desc": "外观时尚，性能出众",
+			"price": "¥ 498"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductOffice-03?context=bWFzdGVyfGltYWdlc3wyNjc4N3xpbWFnZS9wbmd8aW1hZ2VzL2g0YS9oNWEvOTkwNDY1NzY5NDc1MC5wbmd8YmI4NGZjODE5MjQxNWM4MWJkYzA1MTBmNmM5OGMzZTI4NzNkYTQ5YTFiNzA2Mjg3MmJiNWJhODA0NDMzNTE3YQ",
+			"title": "Office家庭和学生版2016 for Mac",
+			"desc": "你的创意工作室",
+			"price": "¥ 748"
+		}]
+	},
+	"xbox": {
+		"title": "Xbox",
+		"cp": [{
+			"title": "更纤薄、更时尚、更高清<br>打造畅快游戏体验",
+			"desc": "查看更多",
+			"price": "",
+			"bgimg": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017XboxGuide-Media?context=bWFzdGVyfGltYWdlc3wyMjE5MTJ8aW1hZ2UvcG5nfGltYWdlcy9oNTgvaDdjLzk5MDQ2NTcwNzIxNTgucG5nfDI1YTY4OGFjNWNjODZjOTVmNmJlYWM0ZTg0ZDNmODA2ZmQzNTE0ZjdhOTQwZmRhMjgwMDlhYTEzZTJhZmI0OTM"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductXbox-01?context=bWFzdGVyfGltYWdlc3wxNDE2NjN8aW1hZ2UvcG5nfGltYWdlcy9oYzQvaGMwLzk5MDQ2NTc4MjU4MjIucG5nfDY4ZGQ2NWU0YzYxYTc4YzFiNjFhZjg5YWQzYzFmNjJlMDY2NDNhZjU5YTJhMmQzMDA4ZGE2ZDU1OTYwODQ4Zjg",
+			"title": "Xbox One S 1TB 家庭娱乐游戏机",
+			"desc": "4K UHD高清，HDR高动态范围效果",
+			"price": "¥ 1,899"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductXbox-02?context=bWFzdGVyfGltYWdlc3w1MDUyN3xpbWFnZS9wbmd8aW1hZ2VzL2g2My9oMDIvOTkwNDY1Nzg1ODU5MC5wbmd8YjllOTU5MWY4NTBmOGRjYWI3OWVkODYwOGQ5Zjk5ZDU1YmZlZWE5MmRmNWI0OTQxNTc3ZmQ5NmFhNzI5M2Q0Ng",
+			"title": "Xbox One X 1TB 家庭娱乐游戏机",
+			"desc": "真 4K 沉浸式体验，感受真实的力量",
+			"price": "¥ 3,899"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductXbox-03?context=bWFzdGVyfGltYWdlc3wxNDUyMTF8aW1hZ2UvcG5nfGltYWdlcy9oZDgvaDE1Lzk5MDQ2NTc4OTEzNTgucG5nfDYyMjdlOTM4OGJiZDM2YWVjM2YzNmFmODU3ODk0NWUzYjBhZTQ2MzU4MjZkYTczZDZjOGY5Mzk5ZDU2NjQ5Yjk",
+			"title": "Xbox 无线控制器",
+			"desc": "流线设计，难忘触感，游戏更酣畅",
+			"price": "¥ 369"
+		}]
+	},
+	"电脑与配件": {
+		"title": "电脑与配件",
+		"cp": [{
+			"title": "精选品牌<br>Windows 10电脑与配件",
+			"desc": "查看更多",
+			"price": "",
+			"bgimg":"https://imgazure.microsoftstore.com.cn/medias/HomePage2017ComputerGuide-Media?context=bWFzdGVyfGltYWdlc3wxNzA3NjR8aW1hZ2UvcG5nfGltYWdlcy9oNWYvaGQzLzk5MDQ2NTcxMDQ5MjYucG5nfDM0MDU3NTE2MjZlMmE4OTk1N2Y2NDNlMWFiNDVjYzY0Y2M3ZmE4ODgxMzU0ODg5YzZjZmE5Y2U1YjViOGZmMjI"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductComputer-01?context=bWFzdGVyfGltYWdlc3w3NjI5MnxpbWFnZS9wbmd8aW1hZ2VzL2g5NS9oZmEvOTkwNDY1NzUzMDkxMC5wbmd8MzNkNzMzYjU3Y2Y5NzY1ZTI4YmEwYTI2NzVhNjQ3MTUyNzY4YzIzNTdkYmRiYThlZDFkMTg0ODRiY2QxN2YzZg",
+			"title": "微软精准鼠标",
+			"desc": "人体工学设计，自定义侧键，支持 USB 和蓝牙连接，最多同时连接 3 台电脑",
+			"price": "¥ 2,988"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductComputer-02?context=bWFzdGVyfGltYWdlc3wxNDYxOTl8aW1hZ2UvcG5nfGltYWdlcy9oYmQvaDM5Lzk5MDQ2NTc1NjM2NzgucG5nfDgzZmNiYTQzYzRiMWQ0ZjQxNGFkNGIxNjQxYmVlMDc1NWVhOGNlYzVjYTA5YjFiYTdmMzNmMTY0ZDBkMTNlYzc",
+			"title": "Logah Hello Kitty 二合一平板",
+			"desc": "Hello Kitty主题及开机画面，10.1英寸IPS屏，Windows 10，皮套式键盘",
+			"price": "¥ 1,288"
+		}, {
+			"img": "https://imgazure.microsoftstore.com.cn/medias/HomePage2017ProductComputer-03?context=bWFzdGVyfGltYWdlc3w4Mjk5MHxpbWFnZS9wbmd8aW1hZ2VzL2gxNS9oZDEvOTkwNDY1NzU5NjQ0Ni5wbmd8MmM1Mjc3YjI3ZjFkYmJlMTY5YzQ0NmE4ZWUwZjRiZTcxYWUwNThiNWNlYjFlYmMwMWY2ZjgxYTExODM3YTZlMQ",
+			"title": "Porsche Design BOOK ONE",
+			"desc": "13.3 英寸 IPS 触控屏，第七代酷睿处理器，Windows 10 专业版，内含手写笔",
+			"price": "¥ 12,888"
+		}]
+	}
+}

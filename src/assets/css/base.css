@@ -1,0 +1,22 @@
+.container {
+	max-width: 1180px;
+	margin: auto;
+	padding-top: 0.1px;
+  	width: 90%
+}
+a {
+	text-decoration: none;
+}
+.fl {
+	float: right;
+}
+sup {
+	vertical-align: super !important;
+	font-size: smaller !important;
+<<<<<<< HEAD
+=======
+}
+body {
+	font-family: "Microsoft YaHei", "Hiragino Sans GB";
+>>>>>>> ...
+}
