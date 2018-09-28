@@ -43,11 +43,11 @@
       <ul>
         <li><router-link to='/'><a href="javascript:;">微软官方商城</a></router-link><button @click="nav" class="icon-equalizer"></button></li>
         <li :class="{'active': menu}">
-          <a class="menulist" href="javascript:;" @click.stop="softwareA">硬件<i class="icon-chevron-small-down"></i></a>
+          <a class="menulist" href="javascript:;" @click.stop="softwareA">硬件<i :class="{'icon-chevron-small-down': !software,'icon-chevron-small-up': software}"></i></a>
         </li>
         <v-list v-show="software" :dataList="obj" :mobile="mobile"></v-list>
         <li :class="{'active': menu}">
-          <a class="menulist" href="javascript:;" @click.stop="hardwareA">软件<i class="icon-chevron-small-down"></i></a>
+          <a class="menulist" href="javascript:;" @click.stop="hardwareA">软件<i :class="{'icon-chevron-small-down': !hardware,'icon-chevron-small-up': hardware}"></i></a>
         </li>
         <v-list v-show="hardware" :dataList="obj2" :mobile="mobile"></v-list>
         <li :class="{'active': menu}"><a class="menulist" href="javascript:;">商务</a></li>
@@ -394,9 +394,8 @@ export default {
           height: 72px
           color: #0067b8
           .icon-ctrl
-          .icon-chevron-small-down
+          .icon-chevron-small-down, .icon-chevron-small-up
             vertical-align: sub
-            transform: rotate(100deg)
       li:nth-child(1)
         margin-right: 10px
         min-width: 130px
@@ -588,7 +587,7 @@ export default {
           display: inline-block
           width: 100%
           .icon-ctrl
-          .icon-chevron-small-down
+          .icon-chevron-small-down, .icon-chevron-small-up
             vertical-align: sub
         &.active
           display: none
