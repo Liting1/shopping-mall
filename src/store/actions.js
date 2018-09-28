@@ -11,8 +11,6 @@ export default {
   },
   scroll ({commit}, h) {
     commit('SCROLL', h)
-<<<<<<< HEAD
-=======
   },
   goods ({commit}, f) {
     commit('GOODS', f)
@@ -31,6 +29,5 @@ export default {
   },
   modifynum ({commit}, num) {
     commit('MODIFYNUM', num)
->>>>>>> ...
   }
 }

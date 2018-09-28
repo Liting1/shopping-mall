@@ -11,7 +11,7 @@
   </div>
   <div class="navbar">
     <div class="container">
-      <div class="nav-content" ref="navContent" :class="{'active': k }">
+      <div class="nav-content" ref="navContent">
         <ul>
           <li v-for="item in navs" :key="item.id"><a :href="item.src">{{item.name}}</a></li>
         </ul>
@@ -137,15 +137,6 @@ export default {
     }
   },
   mounted () {
-<<<<<<< HEAD
-    var _this = this
-    window.onload = function () {
-      _this.box = _this.$refs.navContent.offsetTop
-      console.log(_this.box, _this.k)
-      _this.control = true
-      _this.fun()
-    }
-=======
     // var _this = this
     // window.onload = function () {
     //   _this.box = _this.$refs.navContent.offsetTop
@@ -153,11 +144,10 @@ export default {
     //   _this.control = true
     //   _this.fun()
     // }
->>>>>>> ...
   },
   watch: {
     scrollHeight () {
-      this.fun()
+      // this.fun()
     }
   }
 }

@@ -1,36 +1,8 @@
 <template>
-<<<<<<< HEAD
-<div class="header">
-  <div class="container">
-    <div class="header-top" ref="headerTop" >
-        <div class="header-logo"><v-logo class="logo"></v-logo></div>
-        <div class="header-help">支持与帮助</div>
-        <i class="icon-search m_search" @click='search'></i>
-        <div class="header-search" v-show="search_m">
-          <input type="text" placeholder="Suface Pro">
-          <i class="icon-search"></i>
-        </div>
-        <div class="header-shop">
-          <span class="icon-cart"></span>
-        </div>
-        <div class="header-login">
-          <a href="#">登录</a>
-          <i class="icon-user"></i>
-        </div>
-    </div>
-    <div class="header-nav" ref="headerNav" :class="{'header-box': navBox}">
-      <ul>
-        <li><router-link to='/'><a href="javascript:;">微软官方商城</a></router-link><button @click="nav" class="icon-equalizer"></button></li>
-        <li :class="{'active': menu}">
-          <a class="menulist" href="javascript:;" @click.stop="softwareA">硬件<i class="icon-ctrl"></i></a>
-        </li>
-        <v-list v-show="software" :dataList="obj" :mobile="mobile"></v-list>
-        <li :class="{'active': menu}">
-          <a class="menulist" href="javascript:;" @click.stop="hardwareA">软件<i class="icon-ctrl"></i></a>
-=======
 <div class="header" :class="{'border': !showNav}">
-  <div class="container">
-    <div class="header-top" ref="headerTop" >
+  <div style="background-color: #f5f5f5">
+    <div class="container">
+      <div class="header-top" ref="headerTop" >
         <div class="header-logo"><router-link to="/"><v-logo class="logo"></v-logo></router-link></div>
         <div class="header-help">支持与帮助</div>
         <i class="icon-search m_search" @click='search'></i>
@@ -63,7 +35,10 @@
             </div>
           </div>
         </div>
+      </div>
     </div>
+  </div>
+  <div class="container">
     <div v-show="showNav" class="header-nav" ref="headerNav" :class="{'header-box': navBox}">
       <ul>
         <li><router-link to='/'><a href="javascript:;">微软官方商城</a></router-link><button @click="nav" class="icon-equalizer"></button></li>
@@ -73,7 +48,6 @@
         <v-list v-show="software" :dataList="obj" :mobile="mobile"></v-list>
         <li :class="{'active': menu}">
           <a class="menulist" href="javascript:;" @click.stop="hardwareA">软件<i class="icon-chevron-small-down"></i></a>
->>>>>>> ...
         </li>
         <v-list v-show="hardware" :dataList="obj2" :mobile="mobile"></v-list>
         <li :class="{'active': menu}"><a class="menulist" href="javascript:;">商务</a></li>
@@ -88,12 +62,6 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-import { mapState } from 'vuex'
-import list from '@/components/v-header/list'
-import logo from '@/components/logo/logo'
-export default {
-=======
 import { mapState, mapGetters } from 'vuex'
 import list from '@/components/v-header/list'
 import logo from '@/components/logo/logo'
@@ -104,7 +72,6 @@ export default {
       default: true
     }
   },
->>>>>>> ...
   data () {
     return {
       software: false,
@@ -113,10 +80,8 @@ export default {
       mobile: true, // 判断移动端还是PC端
       navBox: false,
       search_m: false,
-<<<<<<< HEAD
-=======
       txt: '',
->>>>>>> ...
+      a: false,
       obj: {
         list: [{
           name: 'Surface',
@@ -157,17 +122,7 @@ export default {
       },
       body: document.getElementsByTagName('body')[0],
       t: '',
-<<<<<<< HEAD
       height: ''
-    }
-  },
-  computed: mapState([
-    'bd',
-    'scrollHeight'
-  ]),
-=======
-      height: '',
-      a: false
     }
   },
   computed: {
@@ -179,7 +134,6 @@ export default {
       'all'
     ])
   },
->>>>>>> ...
   methods: {
     softwareA () {
       if (this.software) {
@@ -206,15 +160,12 @@ export default {
       } else {
         this.menu = true
       }
-<<<<<<< HEAD
-=======
     },
     togocart () {
       this.$router.push('shopcart')
     },
     submit () {
       console.log(this.txt)
->>>>>>> ...
     }
   },
   created () {
@@ -228,13 +179,10 @@ export default {
   },
   mounted () {
     var _this = this
-<<<<<<< HEAD
     this.t = this.$refs.headerNav.offsetTop // 元素距离顶部的距离
-=======
     this.$nextTick(() => {
       this.t = this.$refs.headerNav.offsetTop // 元素距离顶部的距离
     })
->>>>>>> ...
     this.body.onclick = function () {
       _this.software = false
       _this.hardware = false
@@ -283,11 +231,8 @@ export default {
 @media screen and (min-width: 833px)
   .header
     border-bottom: solid 1px rgba(0,0,0,0.2)
-<<<<<<< HEAD
-=======
     &.border
       border-bottom: none
->>>>>>> ...
     .header-top
       height: 50px
       background-color: #f5f5f5
@@ -332,7 +277,6 @@ export default {
         flex-shrink: 0
         line-height: 55px
         margin: 0 20px
-<<<<<<< HEAD
         span
           font-size: 20px
           color: #666
@@ -345,7 +289,6 @@ export default {
           color: #333
         .icon-user
           display: none
-=======
         cursor: pointer
         &:hover
           span
@@ -364,12 +307,13 @@ export default {
           font-size: 14px
           padding: 0 8px
           color: #333
-          border: solid 1px #fff
+          border: solid 1px #f5f5f5
           display: inline-block
           position: relative
           box-sizing: border-box
-          background-color: #fff
+          background-color: #f5f5f5
           z-index: 201
+          height: 100%
         .icon-user
           display: none
         .header-login-box
@@ -378,7 +322,7 @@ export default {
           position: absolute
           right: 0
           z-index: 200
-          top: 50px
+          top: 49px
           border: solid 1px #e0e0e0
           display: none
           .content
@@ -423,9 +367,9 @@ export default {
         >a
           border: solid 1px #e0e0e0
           border-bottom: solid 1px #fff
+          background-color: #fff
         .header-login-box
           display: block
->>>>>>> ...
     .header-nav
       background-color: #fff
       z-index: 100
@@ -449,11 +393,8 @@ export default {
           display: inline-block
           height: 72px
           color: #0067b8
-<<<<<<< HEAD
           .icon-ctrl
-=======
           .icon-chevron-small-down
->>>>>>> ...
             vertical-align: sub
             transform: rotate(100deg)
       li:nth-child(1)
@@ -500,10 +441,7 @@ export default {
         line-height: 45px
         right: 84px
         top: 0
-<<<<<<< HEAD
-=======
         cursor: pointer
->>>>>>> ...
       .header-search
         width: 100%
         position: relative
@@ -512,7 +450,6 @@ export default {
           box-sizing: border-box
           padding-left: 1em
         .icon-search
-<<<<<<< HEAD
           position: absolute
           right: 10px
           top: 12px
@@ -524,10 +461,9 @@ export default {
         top: 0
         color: #666
       .header-login
-        a
+        >a
           display: none
         .icon-user
-=======
           cursor: pointer
           position: absolute
           right: 10px
@@ -551,18 +487,16 @@ export default {
           display: none
         .icon-user
           cursor: pointer
-          border: solid 1px #fff
-          background-color: #fff
+          border: solid 1px #f5f5f5
+          background-color: #f5f5f5
           box-sizing: border-box
->>>>>>> ...
           position: absolute
           right: 0
           top: 0
           line-height: 45px
           padding: 0 8px
-<<<<<<< HEAD
-=======
           z-index: 201
+          height: 45px
         .header-login-box
           width: 225px
           background-color: #fff
@@ -570,7 +504,7 @@ export default {
           position: absolute
           right: 0
           z-index: 200
-          top: 45px
+          top: 44px
           display: none
           .content
             box-sizing: border-box
@@ -613,9 +547,9 @@ export default {
         .icon-user
           border: solid 1px #e0e0e0
           border-bottom: solid 1px #fff
+          background-color: #fff
         .header-login-box
           display: block
->>>>>>> ...
     .header-nav
       height: 50px
       background-color: #fff
@@ -653,11 +587,8 @@ export default {
           font-size: 14px
           display: inline-block
           width: 100%
-<<<<<<< HEAD
           .icon-ctrl
-=======
           .icon-chevron-small-down
->>>>>>> ...
             vertical-align: sub
         &.active
           display: none

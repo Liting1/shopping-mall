@@ -2,24 +2,16 @@
 <div class="pic">
   <div class="pic-top-img swiper-container" ref="picBox">
     <ul class="swiper-wrapper">
-<<<<<<< HEAD
-        <li class="swiper-slide" v-for="(item, index) in items" :key="index" :class="{'active': show === index}">
-=======
-        <li class="swiper-slide" v-for="(item, index) in imgs" :key="index" :class="{'active': show === index}">
->>>>>>> ...
-          <img width="100%" :src="item" alt="">
-        </li>
+      <li class="swiper-slide" v-for="(item, index) in imgs" :key="index" :class="{'active': show === index}">
+        <img width="100%" :src="item">
+      </li>
     </ul>
     <div class="swiper-pagination"></div>
   </div>
   <div class="pic-list">
     <button @click="prev">&lt;</button>
     <ul>
-<<<<<<< HEAD
-      <li :class="{'active': show === index}" v-for="(item, index) in items" :key="item.id"><button  @click="showMe(index)"><img width="100%" :src="item"></button></li>
-=======
       <li :class="{'active': show === index}" v-for="(item, index) in imgs" :key="item.id"><button  @click="showMe(index)"><img width="100%" :src="item"></button></li>
->>>>>>> ...
     </ul>
     <button @click="next">&gt;</button>
   </div>
@@ -29,26 +21,16 @@
 <script>
 import { mapState } from 'vuex'
 export default {
-<<<<<<< HEAD
-  data () {
-    return {
-      items: ['https://imgazure.microsoftstore.com.cn/medias/MIC1964-593Wx390H-1.png?context=bWFzdGVyfGltYWdlc3wxMDU5NTJ8aW1hZ2UvcG5nfGltYWdlcy9oZjcvaDhlLzk3MzQxMTAxNTA2ODYucG5nfGViZGIyNmFmMjlkZDA5ZTQ1MmNmZjczNGI3NWU4NzM3ZWZiODk2ZDQxZTMzOGVjMmU0YWZiNjAxMGYwMmVjY2E', 'https://imgazure.microsoftstore.com.cn/medias/MIC1964-593Wx390H-2.png?context=bWFzdGVyfGltYWdlc3wyMTUyOTR8aW1hZ2UvcG5nfGltYWdlcy9oOTYvaDkxLzk2MjgyMDQ0OTg5NzQucG5nfGFjOTM3YTg0OTRhY2U2NWEwNzRhYThhOWIwNDFlOGVmYjdmZjliZTY1MWZlMTQ3OWIzZDljNmRmNzc0MGYxOWU', 'https://imgazure.microsoftstore.com.cn/medias/MIC1964-593Wx390H-3.png?context=bWFzdGVyfGltYWdlc3wxNTc0Njl8aW1hZ2UvcG5nfGltYWdlcy9oZjIvaGUxLzk2MjgyMDU2NDU4NTQucG5nfDRhMjE0NjA2NThiMDM5MjljNGZiNDBmYTdkZDMyOTQ5YzIxYmRlOWJmM2JmN2M3OWQ4ZmViNWQwZDRiYzZjZDU', 'https://imgazure.microsoftstore.com.cn/medias/MIC1964-593Wx390H-4.png?context=bWFzdGVyfGltYWdlc3wxMjUwOTF8aW1hZ2UvcG5nfGltYWdlcy9oYWUvaDY1Lzk2MjgyMDY0OTc4MjIucG5nfDQxYjAxODQxOWQ0YmVmM2M0OGYyYzg3NDkzMGI5MzA3NDc4MjQ1NjgzOGMzYWYzNWUwZTZiYzdjMWU5M2RmYTg'],
-=======
   props: ['imgs'],
   data () {
     return {
->>>>>>> ...
       show: 0
     }
   },
   methods: {
-<<<<<<< HEAD
     prev () {
       console.log(11111)
     },
-=======
-    prev () {},
->>>>>>> ...
     next () {},
     showMe (index) {
       let picbox = this.$refs.picBox

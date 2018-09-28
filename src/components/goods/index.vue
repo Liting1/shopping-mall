@@ -19,54 +19,7 @@
 
 <script>
 export default {
-<<<<<<< HEAD
-  data () {
-    return {
-      goods: [{
-        img: '',
-        title: 'Surface 配件',
-        desc: '查看全部'
-      }, {
-        img: 'https://imgazure.microsoftstore.com.cn/medias/MIC2387-300Wx180H-1.png?context=bWFzdGVyfGltYWdlc3wyNDc1OXxpbWFnZS9wbmd8aW1hZ2VzL2gyYS9oMmYvOTg5NzQwMzg3NTM1OC5wbmd8NjlhY2MzNDBhNzdhM2EwNWY2MGY1MzVlNTY5MjdmYmQzYmEwNDM5Y2Q3ZDliZjJhNDhmNzU5YzE0YTQzNDFmYg',
-        title: '微软 Surface Go 特制版专业键盘盖',
-        desc: '将 Surface Go 特制版专业键盘盖与 Surface Go 搭配使用，随时随地获得全面的键盘体验。Alcantara 特制版可选灰色、深酒红、灰钴蓝，另有普通版典雅黑可选。',
-        price: '¥ 788'
-      }, {
-        img: 'https://imgazure.microsoftstore.com.cn/medias/MIC2388-300Wx180H-1.png?context=bWFzdGVyfGltYWdlc3w0ODM3MXxpbWFnZS9wbmd8aW1hZ2VzL2g5Ny9oNjUvOTg5NzQwMTg0Mzc0Mi5wbmd8YmY2NGQ0Nzg3ZDg2N2I3NTE2Y2ZlM2QzMjFiYTJhNTI5NGRhOWVhZWMxOTVkYzU5MzE2Mjg5NjJkM2JmOGRkNw',
-        title: '微软 Surface Go 专业键盘盖',
-        desc: '将 Surface Go 专业键盘盖与 Surface Go 搭配使用，随时随地获得全面的键盘体验。另有 Alcantara 特制版灰色、深酒红、灰钴蓝三种颜色可选。',
-        price: '¥ 988'
-      }, {
-        img: 'https://imgazure.microsoftstore.com.cn/medias/MIC2393-300Wx180H-1.png?context=bWFzdGVyfGltYWdlc3wzMTQwMHxpbWFnZS9wbmd8aW1hZ2VzL2g2My9oZjAvOTg5NzM5NTE5MTgzOC5wbmd8NzIzMmRiMDA5N2RiZjY0ZTRkMDUyMzI0OWUxZjMxODExZGRiODcwMTVmYWU3NGY0ZjY2ZGRlZDE0Yjk3MzZjYw',
-        title: '微软 Surface 便携鼠标',
-        desc: '全新 Surface 便携鼠标，轻巧，便携，无线蓝牙连接，经重新设计的滚轮为您带来顺畅的滚动体验。亮铂金、深酒红、灰钴蓝三种颜色可供选择。',
-        price: '¥ 288'
-      }, {
-        img: 'https://imgazure.microsoftstore.com.cn/medias/MIC1976-300Wx180H-1.png?context=bWFzdGVyfGltYWdlc3w2NTM3fGltYWdlL3BuZ3xpbWFnZXMvaDVlL2gxMi85NzI5ODc0MDAxOTUwLnBuZ3wzMTEyOGM2N2FjZjk3NmMxN2MxNGJiODM4MzUzNDJiNTBhMDQ0ZTI2MWM4MGMxODg2ZDFhNmQ4MGVjN2Y0ZTFl',
-        title: '微软 Surface 触控笔（新）',
-        desc: '微软Surface触控笔（新），全新升级 4,096 级压力感应，反应更灵敏，新增倾斜功能，带来自然的书写绘画体验。兼容 Surface Studio、Surface Laptop、Surface Go 等多款 Surface 产品。',
-        price: '¥ 788'
-      }, {
-        img: 'https://imgazure.microsoftstore.com.cn/medias/MIC2387-300Wx180H-1.png?context=bWFzdGVyfGltYWdlc3wyNDc1OXxpbWFnZS9wbmd8aW1hZ2VzL2gyYS9oMmYvOTg5NzQwMzg3NTM1OC5wbmd8NjlhY2MzNDBhNzdhM2EwNWY2MGY1MzVlNTY5MjdmYmQzYmEwNDM5Y2Q3ZDliZjJhNDhmNzU5YzE0YTQzNDFmYg',
-        title: '微软 Surface Go 专业键盘盖',
-        desc: '将 Surface Go 专业键盘盖与 Surface Go 搭配使用，随时随地获得全面的键盘体验。另有 Alcantara 特制版灰色、深酒红、灰钴蓝三种颜色可选。',
-        price: '¥ 728'
-      }, {
-        img: 'https://imgazure.microsoftstore.com.cn/medias/MIC2387-300Wx180H-1.png?context=bWFzdGVyfGltYWdlc3wyNDc1OXxpbWFnZS9wbmd8aW1hZ2VzL2gyYS9oMmYvOTg5NzQwMzg3NTM1OC5wbmd8NjlhY2MzNDBhNzdhM2EwNWY2MGY1MzVlNTY5MjdmYmQzYmEwNDM5Y2Q3ZDliZjJhNDhmNzU5YzE0YTQzNDFmYg',
-        title: '微软 Surface Go 专业键盘盖',
-        desc: '将 Surface Go 专业键盘盖与 Surface Go 搭配使用，随时随地获得全面的键盘体验。另有 Alcantara 特制版灰色、深酒红、灰钴蓝三种颜色可选。',
-        price: '¥ 788'
-      }, {
-        img: 'https://imgazure.microsoftstore.com.cn/medias/MIC2387-300Wx180H-1.png?context=bWFzdGVyfGltYWdlc3wyNDc1OXxpbWFnZS9wbmd8aW1hZ2VzL2gyYS9oMmYvOTg5NzQwMzg3NTM1OC5wbmd8NjlhY2MzNDBhNzdhM2EwNWY2MGY1MzVlNTY5MjdmYmQzYmEwNDM5Y2Q3ZDliZjJhNDhmNzU5YzE0YTQzNDFmYg',
-        title: '微软 Surface Go 专业键盘盖',
-        desc: '将 Surface Go 专业键盘盖与 Surface Go 搭配使用，随时随地获得全面的键盘体验。另有 Alcantara 特制版灰色、深酒红、灰钴蓝三种颜色可选。',
-        price: '¥ 788'
-      }]
-    }
-  }
-=======
   props: ['goods']
->>>>>>> ...
 }
 </script>
 

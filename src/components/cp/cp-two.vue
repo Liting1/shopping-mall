@@ -20,15 +20,7 @@
 
 <script>
 export default {
-<<<<<<< HEAD
-  props: ['data'],
-  data () {
-    return {
-    }
-  }
-=======
   props: ['data']
->>>>>>> ...
 }
 </script>
 

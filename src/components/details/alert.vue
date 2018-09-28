@@ -1,31 +1,18 @@
 <template>
 <div class="alert-box">
   <div class="alert-top">
-<<<<<<< HEAD
     <div class="alert-img"><img src="https://imgazure.microsoftstore.com.cn/medias/MIC2372-593Wx390H-1.png?context=bWFzdGVyfGltYWdlc3wyMDUzNTJ8aW1hZ2UvcG5nfGltYWdlcy9oODIvaDk2Lzk4NTkxNjk3NDY5NzQucG5nfGE3MjA5NThhODEwMTQzYjYwYjlkMTE3ODBkZDRlNzgwZDY1N2U1Mzc2ODNmZWNiNzY1YmEyMWZlZDE2ZGNlYzQ" alt=""></div>
-    <div class="alert-title">
-      <h3>微软 Surface Laptop<br> 酷睿 m3/4GB/128GB/亮铂金（升级为 Office 2016）</h3>
-      <div>
-        <p><span>品牌建议售价 : </span><i>¥ 6688</i></p>
-        <p><span>售价 : </span><i class="price">¥ 6688</i></p>
-=======
-    <div class="alert-img"><img :src="goodsData.imgArr[1]" alt=""></div>
     <div class="alert-title">
       <h3>{{goodsData.goods_name}}<br> {{goodsData.config[shop.config].name}}</h3>
       <div>
         <p><span>品牌建议售价 : </span><i>{{goodsData.config[shop.config].old_price}}</i></p>
         <p><span>售价 : </span><i class="price">{{goodsData.config[shop.config].new_price}}</i></p>
->>>>>>> ...
       </div>
     </div>
     <div class="close" @click="hidden">X</div>
   </div>
   <div class="alert-content">
-<<<<<<< HEAD
-    <div class="color">
-=======
     <div class="color" style="display: none">
->>>>>>> ...
       <h3>请选择颜色</h3>
       <ul>
         <li>
@@ -45,50 +32,23 @@
     <div class="config">
       <h3>请选择配置</h3>
       <ul>
-<<<<<<< HEAD
-        <li><span>酷睿 m3/4GB/128GB/亮铂金（升级为 Office 2016）</span></li>
-        <li><span>酷睿 m3/4GB/128GB/亮铂金（升级为 Office 2016）</span></li>
-        <li><span>酷睿 m3/4GB/128GB/亮铂金（升级为 Office 2016）</span></li>
-        <li><span>酷睿 m3/4GB/128GB/亮铂金（升级为 Office 2016）</span></li>
-        <li><span>酷睿 m3/4GB/128GB/亮铂金（升级为 Office 2016）</span></li>
-        <li><span>酷睿 m3/4GB/128GB/亮铂金（升级为 Office 2016）</span></li>
-=======
         <li v-for="(item, index) in goodsData.config" :key="item.id" :class="{'active': index === shop.config}" @click="addclass(index)"><span>{{item.name}}</span></li>
->>>>>>> ...
       </ul>
     </div>
     <div class="pages">
       <h3>套餐类型</h3>
       <ul>
-<<<<<<< HEAD
-        <li><span>扩展坞流量套餐</span></li>
-        <li><span>扩展坞流量套餐</span></li>
-        <li><span>扩展坞流量套餐</span></li>
-=======
         <li v-for="(item, index) in goodsData.page" :key="item.id" :class="{'active': index === shop.page}" @click="pages(index)"><span>{{item}}</span></li>
->>>>>>> ...
       </ul>
     </div>
   </div>
   <div class="alert-bottom">
-<<<<<<< HEAD
-    <button>加入购物车</button>
-=======
     <button @click="addCart(router)">加入购物车</button>
->>>>>>> ...
   </div>
 </div>
 </template>
 
 <script>
-<<<<<<< HEAD
-import {mapActions} from 'vuex'
-export default {
-  methods: {
-    ...mapActions([
-      'hidden'
-    ])
-=======
 import {mapState, mapActions} from 'vuex'
 export default {
   data () {
@@ -121,7 +81,6 @@ export default {
   },
   beforeDestroy () {
     this.hidden()
->>>>>>> ...
   }
 }
 </script>
@@ -211,10 +170,7 @@ export default {
           display: inline-block
           color: #666
     .config
-<<<<<<< HEAD
-=======
       overflow: hidden
->>>>>>> ...
       h3
         font-size: 12px
         line-height: 42px
@@ -229,12 +185,9 @@ export default {
         overflow: hidden
         padding: 0 20px 0 5px
         float: left
-<<<<<<< HEAD
-=======
         border 2px solid #eee
         &.active
           border: 2px solid #3a9cd7
->>>>>>> ...
         span
           display: inline-block
           max-height: 32px
@@ -244,11 +197,8 @@ export default {
       ul li:nth-child(2n+1)
           margin-right: 1.35135135%
     .pages
-<<<<<<< HEAD
-=======
       overflow: hidden
       margin-bottom: 20px
->>>>>>> ...
       h3
         font-size: 12px
         line-height: 42px
@@ -256,23 +206,17 @@ export default {
         width: 49.3%
         height: 38px
         font-size: 12px
-<<<<<<< HEAD
         background-color: #eeeeee
-=======
         background-color: #eee
->>>>>>> ...
         vertical-align: top
         padding: 0 20px 0 5px
         margin-bottom: 1.35135135%
         box-sizing: border-box
         float: left
         overflow: hidden
-<<<<<<< HEAD
-=======
         border 2px solid #eee
         &.active
           border: 2px solid #3a9cd7
->>>>>>> ...
         span
           line-height: 20px
       ul li:nth-child(2n+1)

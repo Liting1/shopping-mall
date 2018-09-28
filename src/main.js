@@ -7,18 +7,13 @@ import 'reset-css'
 import './assets/css/base.css'
 import store from './store'
 import axios from 'axios'
-<<<<<<< HEAD
-Vue.config.productionTip = false
-Vue.prototype.$axios = axios
-/* eslint-disable no-new */
-=======
 import fun from './assets/js/function.js'
+
 Vue.config.productionTip = false
 Vue.prototype.$axios = axios
 Vue.prototype.fun = fun
 /* eslint-disable no-new */
 
->>>>>>> ...
 new Vue({
   el: '#app',
   router,

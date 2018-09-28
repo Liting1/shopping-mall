@@ -7,11 +7,8 @@
     <div class="recommended-list">
       <ul>
         <li v-for="(item, index) in items" :key="item.id" @click="link(index)">
-<<<<<<< HEAD
           <div class="img"><img width="100%" :src="item.img"></div>
-=======
           <div class="img"><img width="100%" :src="item.imgUrl"></div>
->>>>>>> ...
           <div class="name">
             <h4>{{item.name}}</h4>
             <p>{{item.desc}}</p>
@@ -27,44 +24,14 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-import axios from 'axios'
-export default {
-  data () {
-    return {
-      items: {}
-=======
-// import axios from 'axios'
 export default {
   props: ['items'],
-  data () {
-    return {
->>>>>>> ...
-    }
-  },
   methods: {
     link (index) {
       if (index === 2) {
         this.$router.push({path: '/shop'})
       }
     }
-  },
-  created () {
-<<<<<<< HEAD
-    var _this = this
-    axios.get('../../../static/recommended.json').then(function (res) {
-      _this.items = res.data
-    }).catch(function (err) {
-      console.log(err)
-    })
-=======
-    // var _this = this
-    // axios.get('../../../static/recommended.json').then(function (res) {
-    //   _this.items = res.data
-    // }).catch(function (err) {
-    //   console.log(err)
-    // })
->>>>>>> ...
   }
 }
 </script>

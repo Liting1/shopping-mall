@@ -3,13 +3,8 @@
   <div class="pages-packages-title">请选择特惠套餐</div>
   <div class="pages-packages-box">
     <ul>
-<<<<<<< HEAD
-      <li v-for="(item, index) in packages" :key="item.id" @click="pages(index)" :class="{'active': index === page}"><button>
-        <div class="name">专业键盘盖套餐</div>
-=======
       <li v-for="(item, index) in page" :key="item.id" @click="pages(index)" :class="{'active': index === shop.page}"><button>
         <div class="name">{{item}}</div>
->>>>>>> ...
         <div><span>¥5088</span><em>¥88</em></div>
       </button></li>
     </ul>
@@ -18,18 +13,6 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-export default {
-  data () {
-    return {
-      packages: [1, 2, 3, 4, 5, 6, 7, 8],
-      page: 0
-    }
-  },
-  methods: {
-    pages (index) {
-      this.page = index
-=======
 import { mapState, mapActions } from 'vuex'
 export default {
   props: ['page'],
@@ -49,7 +32,6 @@ export default {
       } else {
         this.isNum(false)
       }
->>>>>>> ...
     }
   }
 }

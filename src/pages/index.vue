@@ -5,27 +5,6 @@
   </div>
   <div class="content">
     <div>
-<<<<<<< HEAD
-      <v-banner></v-banner>
-    </div>
-    <div class="pc" v-if="show">
-      <div style="margin-bottom: 2.96296296%;">
-        <v-classify :show="false" :items="items"></v-classify>
-      </div>
-      <div>
-        <v-recommended></v-recommended>
-      </div>
-    </div>
-    <div class="m" v-else>
-      <v-mClassify style="margin-bottom: 12.1875%;"></v-mClassify>
-      <v-mClassify2></v-mClassify2>
-    </div>
-    <div>
-      <v-cp-one></v-cp-one>
-    </div>
-    <div class="games" style="margin-bottom: 45px">
-      <v-game></v-game>
-=======
       <v-banner :banData="banner"></v-banner>
     </div>
     <div class="pc" v-if="show">
@@ -45,7 +24,6 @@
     </div>
     <div class="games" style="margin-bottom: 45px">
       <v-game :items="hot"></v-game>
->>>>>>> ...
     </div>
     <div>
       <v-service></v-service>
@@ -76,7 +54,6 @@ import { mapState } from 'vuex'
 export default {
   data () {
     return {
-<<<<<<< HEAD
       items: [{
         img: 'https://imgazure.microsoftstore.com.cn/medias/HomePage2017FourNav-Media-01?context=bWFzdGVyfGltYWdlc3wyOTMzNXxpbWFnZS9wbmd8aW1hZ2VzL2g3Yi9oMDgvOTkwNDY1NjkwODMxOC5wbmd8YWFiOTRlNzVlYTc3MWU5NDIyMmYzYzhmMzQ4MThiYzA5OTgwNGJiMmFjNDNiZDQ5M2I5N2EzZWQ3MDJjMTlkMg',
         desc: 'Surface Go 焕新登场，赋予便携新能量，更多选择，尽在 Surface 家族',
@@ -92,8 +69,7 @@ export default {
         desc: '兼容 PC 及 Mac，独享更多高效新功能，订阅期内享持续更新',
         price: '',
         buy: '立即购买 >'
-      }]
-=======
+      }],
       banner: [
         {
           imgUrl: 'https://imgazure.microsoftstore.com.cn/medias/HomePage2017Banner-Media-02?context=bWFzdGVyfGltYWdlc3wxMzYwMDh8aW1hZ2UvanBlZ3xpbWFnZXMvaDA3L2g3OS85OTE2NTI2ODg2OTQyLmpwZ3xjOGFkYjVkNjA1Yzg1MWFlNzExMjM3ZTc5M2UwYTk2MWZkNjM5ZGU0N2JlY2EyZTkwNGM5YzJlYjkwYjc4N2Q0',
@@ -419,7 +395,6 @@ export default {
           path: ''
         }
       ]
->>>>>>> ...
     }
   },
   components: {
@@ -446,14 +421,6 @@ export default {
         return false
       }
     }
-<<<<<<< HEAD
-  },
-  created () {
-    this.$axios.get('/api/web/index.php?m=default&c=index&a=index').then((res) => {
-      console.log(res)
-    })
-=======
->>>>>>> ...
   }
 }
 </script>

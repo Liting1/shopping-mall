@@ -4,17 +4,6 @@
   <div class="container">
     <div class="details-left">
       <div class="details-left-box">
-<<<<<<< HEAD
-        <v-pic></v-pic>
-        <v-fun class="box"></v-fun>
-      </div>
-    </div>
-    <div class="details-right">
-      <v-title class='details-box'></v-title>
-      <div @click="show"><v-plan></v-plan></div>
-      <div class="fun details-box"><v-fun></v-fun></div>
-      <div class="details-page"><v-pages></v-pages></div>
-=======
         <v-pic :imgs="goodsData.imgArr"></v-pic>
         <v-fun :desc="goodsData.desc" class="box"></v-fun>
       </div>
@@ -24,7 +13,6 @@
       <div @click="show"><v-plan :goodsConfig="goodsData.config"></v-plan></div>
       <div class="fun details-box"><v-fun :desc="goodsData.desc"></v-fun></div>
       <div class="details-page"><v-pages :page="goodsData.page"></v-pages></div>
->>>>>>> ...
       <v-buy></v-buy>
     </div>
   </div>
@@ -35,10 +23,6 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-
-=======
->>>>>>> ...
 import pic from '@/components/details/pic'
 import fun from '@/components/details/fun'
 import plan from '@/components/details/plan'
@@ -48,18 +32,10 @@ import title from '@/components/details/title'
 import win from '@/components/details/alert'
 import { mapState, mapActions } from 'vuex'
 export default {
-<<<<<<< HEAD
-  data () {
-    return {}
-  },
-  computed: mapState([
-    'lows'
-=======
   computed: mapState([
     'lows',
     'shop',
     'goodsData'
->>>>>>> ...
   ]),
   components: {
     'v-pic': pic,
@@ -72,23 +48,9 @@ export default {
   },
   methods: {
     ...mapActions([
-<<<<<<< HEAD
-      'show'
-    ])
-=======
       'show',
       'goods'
     ])
-  },
-  created () {
-    // let id = this.$route.params.id
-    // this.goodsData.goods_id = id
-    // this.$axios.get('/api/web/index.php?m=default&c=goods&a=index&id=' + id).then((res) => {
-    //   this.goods(res.data[0])
-    //   this.images = res.data[1]
-    //   this.shop.name_id = id
-    // })
->>>>>>> ...
   }
 }
 </script>

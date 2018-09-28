@@ -15,17 +15,14 @@
         </a>
       </li>
       <li>
-<<<<<<< HEAD
         <a href="javascript:;">
           <div class="icon-cart"></div>
           <span>购物车</span>
         </a>
-=======
         <router-link to="/shopcart">
           <div class="icon-cart"></div>
           <span>购物车</span>
         </router-link>
->>>>>>> ...
       </li>
       <li>
         <a href="javascript:;">
@@ -35,18 +32,11 @@
       </li>
     </ul>
   </div>
-<<<<<<< HEAD
-  <div class="footer-right">加入购物车</div>
-=======
   <div class="footer-right"><a href="javascript:;" @click="addCart(router)">加入购物车</a></div>
->>>>>>> ...
 </div>
 </template>
 
 <script>
-<<<<<<< HEAD
-export default {}
-=======
 import {mapActions} from 'vuex'
 export default {
   data () {
@@ -60,7 +50,6 @@ export default {
     ])
   }
 }
->>>>>>> ...
 </script>
 
 <style scoped lang="stylus">
@@ -91,23 +80,13 @@ export default {
             line-height: 12px
             color: #333
     .footer-right
-<<<<<<< HEAD
       width: 40%
       flex-shrink: 0
       background-color: #ec5411
       font-size: 14px
-      color: #fff
       text-align: center
       line-height: 45px
-=======
-        width: 40%
-        flex-shrink: 0
-        background-color: #ec5411
-        font-size: 14px
-        text-align: center
-        line-height: 45px
-        a
-          color: #fff
-          display: block
->>>>>>> ...
+      a
+        color: #fff
+        display: block
 </style>

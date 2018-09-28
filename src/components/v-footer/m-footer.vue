@@ -1,11 +1,7 @@
 <template>
 <div class="footer" v-if="iSshow">
   <ul>
-<<<<<<< HEAD
-    <li v-for="item in items" :key="item.id"><a href="javascript:;"><i :class="item.class"></i><p>{{item.txt}}</p></a></li>
-=======
     <li v-for="item in items" :key="item.id"><router-link :to="item.path"><i :class="item.class"></i><p>{{item.txt}}</p></router-link></li>
->>>>>>> ...
   </ul>
 </div>
 </template>
@@ -18,21 +14,6 @@ export default {
       iSshow: true,
       items: [{
         class: 'icon-home2',
-<<<<<<< HEAD
-        txt: '首页'
-      }, {
-        class: 'icon-ungroup',
-        txt: '分类'
-      }, {
-        class: 'icon-cart',
-        txt: '购物车'
-      }, {
-        class: 'icon-user',
-        txt: '账号'
-      }, {
-        class: 'icon-bubbles',
-        txt: '客服'
-=======
         txt: '首页',
         path: '/'
       }, {
@@ -51,20 +32,12 @@ export default {
         class: 'icon-bubbles',
         txt: '客服',
         path: ''
->>>>>>> ...
       }]
     }
   },
   computed: mapState([
     'bd'
   ]),
-  created () {
-    if (this.bd > 766) {
-      this.iSshow = false
-    } else {
-      this.iSshow = true
-    }
-  },
   watch: {
     bd () {
       if (this.bd > 766) {
@@ -72,6 +45,13 @@ export default {
       } else {
         this.iSshow = true
       }
+    }
+  },
+  created () {
+    if (this.bd > 766) {
+      this.iSshow = false
+    } else {
+      this.iSshow = true
     }
   }
 }

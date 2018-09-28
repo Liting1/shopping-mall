@@ -1,19 +1,11 @@
 <template>
 <div class="plan">
  <div class="plan-select">
-<<<<<<< HEAD
-    <div class="plan-select-title">请选择配置</div>
-    <div class="cons">
-      <ul>
-        <li v-for="(item, index) in test" :key="item" @click="addclass(index)" :class="{'active': index === cons}"><div>
-          <a href="javascript:;">酷睿 m3/4GB/128GB/银灰<span>￥6688</span></a>
-=======
     <div class="plan-select-title">{{bd>766?'请选择配置':goodsConfig[shop.config].name}}</div>
     <div class="cons">
       <ul>
         <li v-for="(item, index) in goodsConfig" :key="item.id" @click="modifyconfig(index)" :class="{'active': index === shop.config}"><div>
           <button>{{item.name}}<span>{{item.new_price}}</span></button>
->>>>>>> ...
         </div></li>
       </ul>
     </div>
@@ -22,19 +14,6 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-export default {
-  data () {
-    return {
-      test: [1, 2, 3, 4, 5, 6, 7, 8, 9],
-      cons: 0
-    }
-  },
-  methods: {
-    addclass (index) {
-      this.cons = index
-    }
-=======
 import { mapState, mapActions } from 'vuex'
 export default {
   props: ['goodsConfig'],
@@ -46,7 +25,6 @@ export default {
     ...mapActions([
       'modifyconfig'
     ])
->>>>>>> ...
   }
 }
 </script>
@@ -82,13 +60,11 @@ export default {
             height: 100%
             span
               font-size: 12px
-<<<<<<< HEAD
             a
               max-height: 32px
               line-height: 14px
               display: block
               margin-top: 4px
-=======
             button
               height: 100%
               text-align: left
@@ -101,7 +77,6 @@ export default {
               outline: none
               color: #666
               background-color: transparent
->>>>>>> ...
         li:nth-child(2n+1)
           margin-right: 2%
 
@@ -118,12 +93,9 @@ export default {
         div
           padding: 0px 8px
           height: 100%
-<<<<<<< HEAD
           a
             line-height: 32px
             margin-top: 0
-=======
->>>>>>> ...
 
 @media only screen and (max-width: 765px)
   .plan

@@ -1,18 +1,6 @@
 <template>
 <div class="buy-bottom">
   <div class="buy-box">
-<<<<<<< HEAD
-    <div class="buy-num">
-      <span>数量：</span>
-      <div>
-        <a @click="minus">-</a>
-        <span>{{num}}</span>
-        <a @click="addNum">+</a>
-      </div>
-    </div>
-    <div class="buy-btn">
-      <button>加入购物车</button>
-=======
     <div class="buy-num" v-show="is_num">
       <span>数量：</span>
       <div class="myClass">
@@ -23,7 +11,6 @@
     </div>
     <div class="buy-btn">
       <button @click="addCart(router)">加入购物车</button>
->>>>>>> ...
     </div>
   </div>
   <div class="buy-feature-box">
@@ -46,21 +33,6 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-export default {
-  data () {
-    return {
-      num: 1
-    }
-  },
-  methods: {
-    addNum () {
-      this.num++
-    },
-    minus () {
-      this.num--
-    }
-=======
 import { mapState, mapActions } from 'vuex'
 export default {
   data () {
@@ -77,7 +49,6 @@ export default {
       'addCart',
       'modifynum'
     ])
->>>>>>> ...
   }
 }
 </script>
@@ -86,21 +57,18 @@ export default {
   .buy-bottom
     padding-top: 25px
     .buy-box
-<<<<<<< HEAD
-      display: flex
-      justify-content: space-between
-      .buy-num
-=======
       overflow: hidden
       .buy-num
         float: left
->>>>>>> ...
-        display: flex
+        font-size: 0
         >span
           line-height: 24px
           height: 24px
+          font-size: 14px
+          vertical-align: top
         div
           font-size: 0
+          display: inline-block
           a
             display: inline-block
             font-size: 22px
@@ -131,10 +99,7 @@ export default {
             text-align: center
       .buy-btn
         text-align: right
-<<<<<<< HEAD
-=======
         float: right
->>>>>>> ...
         button
           display: inline-block
           width: 150px
@@ -189,14 +154,10 @@ export default {
   .buy-bottom
     .buy-box
       display: none
-<<<<<<< HEAD
-=======
-
 .myClass
   -moz-user-select: none; /*火狐*/
   -webkit-user-select: none;  /*webkit浏览器*/
   -ms-user-select: none;   /*IE10*/
   -khtml-user-select: none; /*早期浏览器*/
   user-select: none;
->>>>>>> ...
 </style>

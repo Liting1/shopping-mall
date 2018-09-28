@@ -12,6 +12,9 @@
   <div>
     <v-info></v-info>
   </div>
+  <div>
+    <v-comment></v-comment>
+  </div>
   <div v-if="bd<766">
     <v-footer></v-footer>
   </div>
@@ -24,6 +27,7 @@ import info from '@/components/details/info'
 import header from '@/components/v-header'
 import nav from '@/components/details/header'
 import footer from '@/components/details/footer'
+import comment from '@/components/details/comment'
 import {mapState} from 'vuex'
 export default {
   components: {
@@ -31,7 +35,8 @@ export default {
     'v-info': info,
     'v-header': header,
     'v-nav': nav,
-    'v-footer': footer
+    'v-footer': footer,
+    'v-comment': comment
   },
   computed: mapState([
     'bd'

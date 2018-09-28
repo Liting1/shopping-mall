@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import {mapState, mapActions} from 'vuex'
+import { mapState, mapActions } from 'vuex'
 export default {
   name: 'App',
   computed: mapState([
@@ -21,13 +21,9 @@ export default {
   mounted () {
     var _this = this
     var b = document.querySelector('body')
-<<<<<<< HEAD
-    _this.size(b.offsetWidth)
-=======
     this.$nextTick(() => {
       _this.size(b.offsetWidth)
     })
->>>>>>> ...
     b.onresize = function (e) {
       _this.size(e.target.innerWidth)
     }

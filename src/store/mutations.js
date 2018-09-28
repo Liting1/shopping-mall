@@ -3,29 +3,6 @@ const SHOW = 'SHOW'
 const HIDDEN = 'HIDDEN'
 const SIZE = 'SIZE'
 const SCROLL = 'SCROLL'
-<<<<<<< HEAD
-
-export default {
-  [SHOW] (state) {
-    state.lows = true
-    $('body').css({
-      'height': '100%',
-      'overflow': 'hidden'
-    })
-  },
-  [HIDDEN] (state) {
-    state.lows = false
-    $('body').css({
-      'height': 'auto',
-      'overflow': 'auto'
-    })
-  },
-  [SIZE] (state, s) {
-    state.bd = s
-  },
-  [SCROLL] (state, h) {
-    state.scrollHeight = h
-=======
 const GOODS = 'GOODS'
 const ADDCART = 'ADDCART'
 const ISNUM = 'ISNUM'
@@ -70,6 +47,5 @@ export default {
   },
   [ISNUM] (state, bool) { // 是否显示产品数量模块
     state.is_num = bool
->>>>>>> ...
   }
 }

@@ -2,22 +2,13 @@
 <div class="classify container">
   <div class="classify-left">
     <ul>
-<<<<<<< HEAD
-      <li><span>Surface 产品</span></li>
-      <li v-for="item in product" :key='item.id'><a href="#">{{item}}</a></li>
-=======
       <li><span>{{items.product.title}}</span></li>
       <li v-for="item in items.product.list" :key='item.id'><router-link :to="item.path">{{item.name}}</router-link></li>
->>>>>>> ...
     </ul>
   </div>
   <div class="classify-right">
     <ul>
-<<<<<<< HEAD
-      <li v-for="item in items" :key='item.id'>
-=======
       <li v-for="item in items.hot" :key='item.id'>
->>>>>>> ...
         <a href="#">
           <div class="img"><img width="100%" :src="item.img" alt=""></div>
           <p v-html="item.desc"></p>
@@ -34,16 +25,7 @@
 
 <script>
 export default {
-<<<<<<< HEAD
-  props: ['show', 'items'],
-  data () {
-    return {
-      product: ['Surface Go', 'Surface Pro', 'Surface Laptop', 'Surface Studio', 'Surface Book2', 'Surface 配件', '微软认证翻新']
-    }
-  }
-=======
   props: ['show', 'items']
->>>>>>> ...
 }
 </script>
 

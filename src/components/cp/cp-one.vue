@@ -7,16 +7,6 @@
     <div class="box-content">
       <ul>
         <li v-for="cp in item.cp" :key="cp.id" :style="{backgroundImage: 'url(' + cp.bgimg + ')'}">
-<<<<<<< HEAD
-          <div class="box-a">
-            <div class="img" v-if="cp.img"><img width="100%" :src="cp.img" alt=""></div>
-            <div class="desc">
-              <h3 v-html="cp.title"></h3>
-              <p>{{cp.desc}}</p>
-              <div class="price" v-if="cp.price">售价：<strong>{{cp.price}}</strong> 起</div>
-            </div>
-          </div>
-=======
           <router-link :to="cp.path">
             <div class="box-a">
               <div class="img" v-if="cp.img"><img width="100%" :src="cp.img" alt=""></div>
@@ -27,7 +17,6 @@
               </div>
             </div>
           </router-link>
->>>>>>> ...
         </li>
       </ul>
     </div>
@@ -36,38 +25,8 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-import axios from 'axios'
 export default {
-  data () {
-    return {
-      items: {}
-    }
-  },
-  created () {
-    var _this = this
-    axios.get('../../../static/cp-one.json').then(function (res) {
-      _this.items = res.data
-    }).catch(function (err) {
-      console.log(err)
-    })
-=======
-export default {
-  props: ['items'],
-  data () {
-    return {
-      // items: {}
-    }
-  },
-  created () {
-    // var _this = this
-    // axios.get('../../../static/cp-one.json').then(function (res) {
-    //   _this.items = res.data
-    // }).catch(function (err) {
-    //   console.log(err)
-    // })
->>>>>>> ...
-  }
+  props: ['items']
 }
 </script>
 
@@ -170,6 +129,7 @@ export default {
           background-repeat: no-repeat
           background-size: auto 100%
           background-color: #f8f8f8
+          margin-top: 2.8125%
           .box-a
             padding: 5%
             .img

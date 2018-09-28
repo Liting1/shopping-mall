@@ -1,11 +1,7 @@
 <template>
 <div class="title">
   <div class="title-right-title">
-<<<<<<< HEAD
-    <h1>微软 Surface Pro 中文版<br>酷睿 m3/4GB/128GB/银灰</h1>
-=======
     <h1>{{goodsName}}<br>{{config.name}}</h1>
->>>>>>> ...
   </div>
   <div class="title-price">
     <div style=" float: left">
@@ -14,13 +10,8 @@
         <span>售价 :</span>
       </div>
       <div class="title-price-s">
-<<<<<<< HEAD
-        <span>¥ 5888</span>
-        <span>¥ 5888</span>
-=======
         <span>{{config.old_price}}</span>
         <span>{{config.new_price}}</span>
->>>>>>> ...
       </div>
     </div>
     <div class="title-star">
@@ -36,10 +27,7 @@
 <script>
 import icon from '@/components/icon'
 export default {
-<<<<<<< HEAD
-=======
   props: ['goodsName', 'config'],
->>>>>>> ...
   data () {
     return {
       star: [1, 2, 3, 4, 5]

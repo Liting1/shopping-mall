@@ -2,21 +2,14 @@ import Vue from 'vue'
 import Vuex from 'vuex'
 import mutations from './mutations.js'
 import actions from './actions.js'
-<<<<<<< HEAD
-=======
 import getters from './getters.js'
->>>>>>> ...
 Vue.use(Vuex)
 
 const state = {
   lows: false, // 弹框的显示与隐藏
-<<<<<<< HEAD
-  bd: 0, // body元素的宽度
-  scrollHeight: 0 // 滚动条卷去的高度
-=======
-  is_num: false, // 当套餐为单机时才显示
   bd: 0, // body元素的宽度
   scrollHeight: 0, // 滚动条卷去的高度
+  is_num: false, // 当套餐为单机时才显示
   goodsData: {
     goods_name: '微软 Surface Pro 中文版',
     goods_id: 8,
@@ -78,16 +71,11 @@ const state = {
     page: 0 // 商品套餐
   },
   cart: []
->>>>>>> ...
 }
 
 export default new Vuex.Store({
   state,
   actions,
-<<<<<<< HEAD
-  mutations
-=======
   mutations,
   getters
->>>>>>> ...
 })

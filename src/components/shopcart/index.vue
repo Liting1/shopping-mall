@@ -116,9 +116,6 @@ export default {
         this.$refs.moneyBox.style.marginTop = this.scrollHeight + 'px'
       }
     }
-  },
-  mounted () {
-    // this.fun.strMoney('¥ 123,456')
   }
 }
 </script>

@@ -3,17 +3,11 @@
   <div class="info-nav">
     <ul class="container">
       <li><a href="#">主要特性</a></li>
-<<<<<<< HEAD
       <li><a href="#">主要特性</a></li>
-      <li><a href="#">主要特性</a></li>
-      <li><a href="#">主要特性</a></li>
-      <li><a href="#">主要特性</a></li>
-=======
       <li><a href="#">技术规格</a></li>
       <li><a href="#">包装与质保</a></li>
       <li><a href="#">极速上手</a></li>
       <li><a href="#">顾客评价</a></li>
->>>>>>> ...
     </ul>
   </div>
   <div class="info-content container">

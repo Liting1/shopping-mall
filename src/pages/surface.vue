@@ -4,21 +4,6 @@
     <v-header></v-header>
   </div>
   <div>
-<<<<<<< HEAD
-    <v-banner></v-banner>
-  </div>
-  <div>
-    <v-classify :show="true" :items="items"></v-classify>
-  </div>
-  <div style="margin-top: 20px">
-    <v-compare></v-compare>
-  </div>
-  <div style="margin-bottom: 5.08474576%">
-    <v-goods></v-goods>
-  </div>
-  <div>
-    <v-desc></v-desc>
-=======
     <v-banner :banData="banner"></v-banner>
   </div>
   <div>
@@ -32,7 +17,6 @@
   </div>
   <div>
     <v-desc :surface="surface"></v-desc>
->>>>>>> ...
   </div>
   <div>
     <v-bottom></v-bottom>
@@ -52,10 +36,10 @@ import bottom from '@/components/bottom'
 import footer from '@/components/v-footer/m-footer'
 import goods from '@/components/goods'
 import desc from '@/components/desc'
+
 export default {
   data () {
     return {
-<<<<<<< HEAD
       items: [{
         img: 'https://imgazure.microsoftstore.com.cn/medias/SurfaceCatPage2017FourNav-Media-01?context=bWFzdGVyfGltYWdlc3w0NTgwOXxpbWFnZS9wbmd8aW1hZ2VzL2g3Ny9oNWYvOTkwNjMxMzEzNDExMC5wbmd8ZmQ1YWQxMGZjZTUxZTNkZGFhM2Y2NmY5YjkzNjQ5ODBlZGIwMjQ5Nzc2MGU0ZGZiZWM1ZDMzMzM1OTA4OTljOA',
         desc: '全新 Surface Go<br>焕新登场，招行信用卡尊享12期免息',
@@ -71,7 +55,7 @@ export default {
         desc: 'Surface Book 2<br>性能巨匠，13.5 及 15 英寸可选',
         price: '9,488',
         buy: '点击购买 >'
-=======
+      }],
       banner: [
         {
           imgUrl: 'https://imgazure.microsoftstore.com.cn/medias/SurfaceCatPage2018-AMBC-12-Media?context=bWFzdGVyfGltYWdlc3wzNjg5MjB8aW1hZ2UvanBlZ3xpbWFnZXMvaDgzL2gyNS85OTIwMzUxNjY2MjA2LmpwZ3wyOTRhZTMyMDY1YWMxOThmMWI5YTk4NjgwNjgxZjBlYTUxYWJmMWQ5ZjZkOGIxZTFjNDlhOWFlOTYwODRlNTZk',
@@ -311,7 +295,6 @@ export default {
       }, {
         txt: 'Surface Pro 4与Surface Book 系列产品现已加入微软教育优惠。更多Surface优惠可前往微软官方商城优惠信息页面进行查看。加入微软官方商城邮件订阅计划，还有机会收到微软官方商城优惠代码。',
         bool: false
->>>>>>> ...
       }]
     }
   },

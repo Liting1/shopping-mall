@@ -8,19 +8,11 @@
     <div class="headContent">
       <div class="head-btn"><a href="javascript:;" @click="prev"><img width="100%" src="../../assets/img/l.png"></a></div>
       <ul>
-<<<<<<< HEAD
-        <li :class="{'hidden': index !== num}" v-for="(item, index) in cp" :key="item.id">
-          <a href="#">
-            <div class="img"><img width="100%" :src="item.img" alt=""></div>
-            <p>{{item.name}}</p>
-            <p class="price">{{item.price}}</p>
-=======
         <li :class="{'hidden': index !== num}" v-for="(item, index) in data.cp" :key="item.id">
           <a href="#">
             <div class="img"><img width="100%" :src="item.img" alt=""></div>
             <p>{{item.name}}</p>
             <p class="price" style="color: #333">{{item.price}}</p>
->>>>>>> ...
             <div class="button">
               <button>查看详情</button>
             </div>
@@ -30,11 +22,7 @@
       <div class="head-btn"><a href="javascript:;" @click="next"><img width="100%" src="../../assets/img/r.png"></a></div>
     </div>
   </div>
-<<<<<<< HEAD
-  <div class="content" v-for="item in data" :key="item.id">
-=======
   <div class="content" v-for="item in data.cpdata" :key="item.id">
->>>>>>> ...
     <div class="title"><span>{{item.title}}</span></div>
     <ul>
       <li :class="{'abc': index !== num}" v-for="(desc, index) in item.desc" :key="desc.id"><p v-html="desc"></p></li>
@@ -44,37 +32,12 @@
 </template>
 
 <script>
-<<<<<<< HEAD
-import axios from 'axios'
-export default {
-  data () {
-    return {
-      data: {},
-      cp: {},
-=======
 export default {
   props: ['data'],
   data () {
     return {
->>>>>>> ...
       num: 0
     }
-  },
-  created () {
-<<<<<<< HEAD
-    var _this = this
-    axios.get('../../../static/data.json').then(function (res) {
-      _this.data = res.data
-    }).catch(function (err) {
-      console.log(err)
-    })
-    axios.get('../../../static/get.json').then(function (res) {
-      _this.cp = res.data
-    }).catch(function (err) {
-      console.log(err)
-    })
-=======
->>>>>>> ...
   },
   methods: {
     next () {
