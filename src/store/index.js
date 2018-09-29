@@ -14,10 +14,10 @@ const state = {
     goods_name: '微软 Surface Pro 中文版',
     goods_id: 8,
     imgArr: [
-      'https://imgazure.microsoftstore.com.cn/medias/MIC1964-593Wx390H-1.png?context=bWFzdGVyfGltYWdlc3wxMDU5NTJ8aW1hZ2UvcG5nfGltYWdlcy9oZjcvaDhlLzk3MzQxMTAxNTA2ODYucG5nfGViZGIyNmFmMjlkZDA5ZTQ1MmNmZjczNGI3NWU4NzM3ZWZiODk2ZDQxZTMzOGVjMmU0YWZiNjAxMGYwMmVjY2E',
-      'https://imgazure.microsoftstore.com.cn/medias/MIC1964-593Wx390H-2.png?context=bWFzdGVyfGltYWdlc3wyMTUyOTR8aW1hZ2UvcG5nfGltYWdlcy9oOTYvaDkxLzk2MjgyMDQ0OTg5NzQucG5nfGFjOTM3YTg0OTRhY2U2NWEwNzRhYThhOWIwNDFlOGVmYjdmZjliZTY1MWZlMTQ3OWIzZDljNmRmNzc0MGYxOWU',
-      'https://imgazure.microsoftstore.com.cn/medias/MIC1964-593Wx390H-3.png?context=bWFzdGVyfGltYWdlc3wxNTc0Njl8aW1hZ2UvcG5nfGltYWdlcy9oZjIvaGUxLzk2MjgyMDU2NDU4NTQucG5nfDRhMjE0NjA2NThiMDM5MjljNGZiNDBmYTdkZDMyOTQ5YzIxYmRlOWJmM2JmN2M3OWQ4ZmViNWQwZDRiYzZjZDU',
-      'https://imgazure.microsoftstore.com.cn/medias/MIC1964-593Wx390H-4.png?context=bWFzdGVyfGltYWdlc3wxMjUwOTF8aW1hZ2UvcG5nfGltYWdlcy9oYWUvaDY1Lzk2MjgyMDY0OTc4MjIucG5nfDQxYjAxODQxOWQ0YmVmM2M0OGYyYzg3NDkzMGI5MzA3NDc4MjQ1NjgzOGMzYWYzNWUwZTZiYzdjMWU5M2RmYTg'
+      'http://www.liting.ltd/static/img/aa01.png',
+      'http://www.liting.ltd/static/img/aa02.png',
+      'http://www.liting.ltd/static/img/aa03.png',
+      'http://www.liting.ltd/static/img/aa04.png'
     ],
     old_price: '¥ 5888',
     new_price: '¥ 4,388',

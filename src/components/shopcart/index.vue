@@ -17,7 +17,7 @@
         </div>
         <div class="threeRow">
           <div class="col-pic">
-            <img width="100%" :src="item.goods.imgArr[0]" alt="">
+            <img width="100%" :src="item.goods.imgArr[0]">
             <p><a href="javascript:;" @click='delatePage(index)'>删除套餐</a></p>
           </div>
           <div class="col-name">
@@ -27,7 +27,7 @@
           <div class="col-num hidden" style="height: 2px"></div>
           <div class="col-num"><span>数量：</span>{{item.num}}</div>
         </div>
-        <div class="fourRow">
+        <div class="fourRow" style="display: none">
           <div class="col-f1">
             <div class="img">
               <img width="100%" src="https://imgazure.microsoftstore.com.cn/medias/MIC1770-300Wx180H-1.png?context=bWFzdGVyfGltYWdlc3w3NzgyOHxpbWFnZS9wbmd8aW1hZ2VzL2g0Yy9oYjYvOTQ5OTcwOTQwNzI2Mi5wbmd8NTA0N2VjMDc5NTc2MjRmZmE5OWMyYjM0MDZjMDAyMWI4YmYyNzE0ZGQ3ZWQ5OTExYTQxMTkzZDk4M2MxMmZjMg" alt="">

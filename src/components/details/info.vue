@@ -1,6 +1,6 @@
 <template>
 <div class="info">
-  <div class="info-nav">
+  <div class="info-nav" v-if="bd>766">
     <ul class="container">
       <li><a href="#">主要特性</a></li>
       <li><a href="#">主要特性</a></li>
@@ -18,7 +18,12 @@
 </template>
 
 <script>
-export default {}
+import {mapState} from 'vuex'
+export default {
+  computed: mapState([
+    'bd'
+  ])
+}
 </script>
 
 <style scoped lang="stylus">

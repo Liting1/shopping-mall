@@ -13,6 +13,11 @@ import fxicon from './svg/fxicon'
 import card2 from './svg/card2'
 import fans from './svg/fans'
 import logo from './svg/logo'
+import home from './svg/home'
+import apps from './svg/apps'
+import cart from './svg/cart'
+import man from './svg/man'
+import service from './svg/service'
 export default {
   props: {
     num: ''
@@ -44,6 +49,21 @@ export default {
         case 'logo':
           return 'logo'
           break
+        case 'home':
+          return 'home'
+          break
+        case 'apps':
+          return 'apps'
+          break
+        case 'cart':
+          return 'cart'
+          break
+        case 'man':
+          return 'man'
+          break
+        case 'service':
+          return 'service'
+          break
       }
     }
   },
@@ -55,7 +75,12 @@ export default {
     fxicon,
     card2,
     fans,
-    logo
+    logo,
+    home,
+    apps,
+    cart,
+    man,
+    service
   }
 }
 </script>

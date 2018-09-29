@@ -23,7 +23,7 @@
                 <h4>我的账户</h4>
               </div>
               <ul>
-                <li><a href="javascript:;">我的账户</a></li>
+                <li><router-link to="/user">我的账户</router-link></li>
                 <li><a href="javascript:;">地址管理</a></li>
                 <li><a href="javascript:;">我的专区</a></li>
                 <li><a href="javascript:;">我的优惠券</a></li>
@@ -120,7 +120,6 @@ export default {
         }],
         left: 218
       },
-      body: document.getElementsByTagName('body')[0],
       t: '',
       height: ''
     }
@@ -183,7 +182,7 @@ export default {
     this.$nextTick(() => {
       this.t = this.$refs.headerNav.offsetTop // 元素距离顶部的距离
     })
-    this.body.onclick = function () {
+    document.getElementsByTagName('body')[0].onclick = function () {
       _this.software = false
       _this.hardware = false
     }
@@ -193,8 +192,6 @@ export default {
       this.height = this.$refs.headerNav.offsetHeight // 获取元素的高度
       if (this.bd > 833) { // 当屏幕宽度大于833时 说明是PC端
         this.mobile = false
-        this.software = false
-        this.hardware = false
         this.search_m = true
       } else {
         this.mobile = true
@@ -280,25 +277,7 @@ export default {
         span
           font-size: 20px
           color: #666
-      .header-login
-        line-height: 50px
-        flex-shrink: 0
-        a
-          font-size: 14px
-          padding: 0 8px
-          color: #333
-        .icon-user
-          display: none
-        cursor: pointer
-        &:hover
-          span
-            color: #0067b8 !important
-        span
-          font-size: 20px
-          color: #666
-        span:last-child
-          color: #333
-          font-size: 14px
+          cursor: pointer
       .header-login
         line-height: 50px
         flex-shrink: 0
@@ -393,7 +372,6 @@ export default {
           display: inline-block
           height: 72px
           color: #0067b8
-          .icon-ctrl
           .icon-chevron-small-down, .icon-chevron-small-up
             vertical-align: sub
       li:nth-child(1)
@@ -407,6 +385,7 @@ export default {
         font-size: 12px
         a
           padding: 0 12px
+          color: #666
     .header-box
       position: fixed !important
       top: 0
@@ -430,8 +409,6 @@ export default {
       .header-logo
         width: 100px
         height: 45px
-        .logo
-          padding-top: 12px
       .header-help
         display: none
       .m_search
@@ -459,28 +436,6 @@ export default {
         right: 32px
         top: 0
         color: #666
-      .header-login
-        >a
-          display: none
-        .icon-user
-          cursor: pointer
-          position: absolute
-          right: 10px
-          top: 12px
-      .header-shop
-        .icon-cart
-          cursor: pointer
-          position: absolute
-          padding: 0 18px
-          line-height: 45px
-          right: 32px
-          top: 0
-          color: #666
-        .num
-          position: absolute
-          right: 35px
-          top: 16px
-          font-size: 12px
       .header-login
         >a
           display: none
@@ -561,6 +516,7 @@ export default {
         button
           float: right
           margin-top: 15px
+          cursor: pointer
       li
         width: 100%
         box-sizing: border-box
@@ -586,7 +542,6 @@ export default {
           font-size: 14px
           display: inline-block
           width: 100%
-          .icon-ctrl
           .icon-chevron-small-down, .icon-chevron-small-up
             vertical-align: sub
         &.active

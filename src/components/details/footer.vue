@@ -3,10 +3,10 @@
   <div class="footer-left">
     <ul>
       <li>
-        <a href="javascript:;">
+        <router-link to="/">
           <div class="icon-home2"></div>
           <span>首页</span>
-        </a>
+        </router-link>
       </li>
       <li>
         <a href="javascript:;">

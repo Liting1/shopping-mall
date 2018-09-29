@@ -12,7 +12,7 @@
   <div>
     <v-info></v-info>
   </div>
-  <div><v-comment></v-comment></div>
+  <div style="margin-bottom: 45px"><v-comment></v-comment></div>
   <div v-if="bd<766">
     <v-footer></v-footer>
   </div>

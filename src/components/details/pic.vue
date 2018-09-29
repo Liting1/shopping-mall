@@ -102,6 +102,11 @@ export default {
           border: none
           background-color: transparent
           outline: none
+    button
+      border: none
+      background-color: transparent
+      outline: none
+      cursor: pointer
 
 @media only screen and (max-width: 765px)
   .pic
