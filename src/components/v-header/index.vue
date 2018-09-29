@@ -3,7 +3,7 @@
   <div style="background-color: #f5f5f5">
     <div class="container">
       <div class="header-top" ref="headerTop" >
-        <div class="header-logo"><router-link to="/"><v-logo class="logo"></v-logo></router-link></div>
+        <div class="header-logo"><router-link to="/"><v-icon :num="'logo'" class="logo"></v-icon></router-link></div>
         <div class="header-help">支持与帮助</div>
         <i class="icon-search m_search" @click='search'></i>
         <div class="header-search" v-show="search_m">
@@ -64,7 +64,7 @@
 <script>
 import { mapState, mapGetters } from 'vuex'
 import list from '@/components/v-header/list'
-import logo from '@/components/logo/logo'
+import icon from '@/components/icon'
 export default {
   props: {
     showNav: {
@@ -215,7 +215,7 @@ export default {
   },
   components: {
     'v-list': list,
-    'v-logo': logo
+    'v-icon': icon
   }
 }
 </script>

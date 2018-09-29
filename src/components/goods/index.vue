@@ -62,7 +62,7 @@ export default {
             font-size: 16px
             line-height: 18px
       li:first-child
-        background-image: url('https://imgazure.microsoftstore.com.cn/medias/SurfaceCatPage2017-fitting-pc?context=bWFzdGVyfGltYWdlc3wyMzgxMHxpbWFnZS9qcGVnfGltYWdlcy9oZmMvaDQwLzk3ODc3NjM4NTEyOTQuanBnfDkzMDMxNjFlYWNhMTNiYjdhYWUxYmJlMzIyZDI5OGY3ODFlYTYyMGUzZGQ3OTNjYWQxNWIxY2IxNDZjMTEyOTc')
+        background-image: url('http://www.liting.ltd/static/img/so01.jpg')
         background-size: cover
         .inner
           .goods-img

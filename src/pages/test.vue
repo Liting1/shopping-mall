@@ -3,10 +3,12 @@
   <h1>测试页面</h1>
   <p>{{num>5?'num是大于5的数字':'num不是大于5'}}</p>
   <button @click="send">发送请求</button>
+  <v-icon :num="'star'"></v-icon>
 </div>
 </template>
 
 <script>
+import ica from '@/components/icon'
 export default {
   data () {
     return {
@@ -22,7 +24,10 @@ export default {
       })
     }
   },
-  created () {}
+  created () {},
+  components: {
+    'v-icon': ica
+  }
 }
 </script>
 

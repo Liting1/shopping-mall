@@ -2,7 +2,7 @@
 <div class="desc">
   <div class="container">
     <div class="desc-img">
-      <img width="100%" src="https://imgazure.microsoftstore.com.cn/_ui/images/category/surface/ad_surfacepro5_1180.png">
+      <img width="100%" src="http://www.liting.ltd/static/img/ad_sur.png">
     </div>
     <div class="desc-content">
       <div class="desc-content-inst">

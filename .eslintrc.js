@@ -28,6 +28,7 @@ module.exports = {
     // 禁止在使用new构造一个实例后不赋值
     "no-new": 0,
     // 不能有未定义的变量
-    "no-undef": 0
+    "no-undef": 0,
+    "no-unreachable": 0
   }
 }
