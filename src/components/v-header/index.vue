@@ -278,6 +278,8 @@ export default {
           font-size: 20px
           color: #666
           cursor: pointer
+        .num
+          font-size: 16px
       .header-login
         line-height: 50px
         flex-shrink: 0
@@ -436,6 +438,11 @@ export default {
         right: 32px
         top: 0
         color: #666
+      .header-shop .num
+        position: absolute
+        right: 35px
+        top: 16px
+        font-size: 12px
       .header-login
         >a
           display: none

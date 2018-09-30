@@ -62,9 +62,9 @@ export default {
             top: 0
             left: 0
             height: 16px
-            z-index: 100
-          .star-x
             z-index: 99
+          .star-x
+            z-index: 98
             position: absolute
             top: 0
             left: 0
